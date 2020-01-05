@@ -1,13 +1,12 @@
 import React from 'react';
 
-class City extends React.Component {
-  render() {
-    return (
-      <div>
-        City
+const City = () => {
+  return (
+    <div>
+      City
       </div>
-    );
-  }
+  );
+
 }
 
 export default City;

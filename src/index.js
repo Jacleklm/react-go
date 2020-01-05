@@ -5,6 +5,7 @@ import FastClick from 'fastclick';
 import Route from './router'
 import './style/reset.css'
 import './style/border.css'
+import './style/iconfont.css'
 // import {Provider} from 'react-redux'
 
 FastClick.attach(document.body)

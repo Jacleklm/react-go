@@ -1,0 +1,32 @@
+@import '../../../style/varibles.less';
+@import '../../../style/mixins.less';
+.hotswiper-title {
+    background: @titleColor;
+    font-size: .32rem;
+    height: @contentTitleHeight;
+    line-height: @contentTitleHeight;
+    .title-img {
+      margin-left: 0.2rem;
+      width: .3rem;
+      height: .3rem;
+      padding-bottom: .1rem;
+    }
+  .swiper {
+    margin: .2rem 0 .2rem .2rem;
+    .swiper-content {
+      text-align: center;
+      font-size: .2rem;
+      .swiper-content-img {
+        width: 100%;
+      }
+      .swiper-content-title {
+        color: black;
+        line-height: .4rem;
+        @ellipsis();
+      }
+      .swiper-content-price {
+        color: rgb(255, 131 0);
+      }
+    }
+  }
+}

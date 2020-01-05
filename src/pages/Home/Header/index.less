@@ -1,12 +1,10 @@
-/* import '~styles/varibles.styl' */
+@import '../../../style/varibles.less';
+// @import '~@/style/varibles.less';
 .header {
   width: 100%;
-  line-height: .88rem;
-  /* $titleHeight; */
-  height: .88rem;
-  /* $titleHeight; */
-  background: rgb(0, 188, 212);
-  /* $bgColor; */
+  line-height: @titleHeight;
+  height: @titleHeight;
+  background: @bgColor;
   display: flex;
   color: #fff;
 
@@ -19,9 +17,12 @@
   }
 
   .header-right {
+    display: block;
     padding: 0 .1rem 0 .2rem;
     margin-top: -.08rem;
-
+    a {
+      color: #fff;
+    }
     .icon-choose {
       font-size: .5rem;
       margin-left: -.15rem;

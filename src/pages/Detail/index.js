@@ -1,13 +1,11 @@
 import React from 'react';
 
-class Detail extends React.Component {
-  render() {
+const Detail = () => {
     return (
       <div>
         Detail
       </div>
     );
-  }
 }
 
 export default Detail;
